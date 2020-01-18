@@ -1,0 +1,5 @@
+/* MQTT Broker Connection Settings */
+const char* mqtt_server = "mqtt.eclipse.org";
+const unsigned int mqtt_server_port = 1883;
+const char* topic_temp = "topic/for/temperature";
+const char* topic_humi = "topic/for/humidity";
